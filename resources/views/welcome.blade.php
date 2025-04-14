@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -37,6 +37,7 @@
                         >
                             Log in
                         </a>
+    				<h1> Hello World </h1>
 
                         @if (Route::has('register'))
                             <a
